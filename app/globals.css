@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  a {
+    @apply text-orange-400;
+  }
+}
+
+@layer components {
+  .primary-btn {
+    @apply w-full bg-orange-500 rounded-md text-white font-medium text-center hover:bg-orange-400 transition-colors active:scale-[0.98] active:transition-transform disabled:scale-100;
+  }
+}
